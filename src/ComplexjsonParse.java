@@ -27,6 +27,8 @@ public class ComplexjsonParse {
 			
 			int eachcourse_price=js.getInt("courses["+i+"].price");
 			System.out.println(eachcourse_price);
+			 System.out.println("testing");
+			 System.out.println("testing");
 		 }
 		 
 		 

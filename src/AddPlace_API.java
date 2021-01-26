@@ -23,6 +23,8 @@ public class AddPlace_API {
 		//JsonPath js=new JsonPath(str);
 		 String placeID = js.getString("place_id");
 		 System.out.println(placeID);
+		 System.out.println("testing");
+		
 		 
 		 //update api
 		 String newAddress="70 Summer walk, USA";
@@ -41,6 +43,7 @@ public class AddPlace_API {
 		 String address = js1.getString("address");
 		 System.out.println(address);
 		 Assert.assertEquals(address, newAddress);
+		 System.out.println("testing");
 		
 	}
 
