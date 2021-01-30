@@ -30,7 +30,7 @@ node
     
     stage('compile-package')
     {
-        echo 'mvn package'
+        echo 'mvn package
     }
     
     
