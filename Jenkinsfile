@@ -28,6 +28,11 @@ node
        mail bcc: '', body: 'hi', cc: 'sumit.kalra121@gmail.com', from: '', replyTo: '', subject: 'jenkins email', to: 'sumit.kalra121@gmail.com'
     }
     
+    stage('compile-package')
+    {
+        echo 'mvn package'
+    }
+    
     
     
 }
