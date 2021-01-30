@@ -22,4 +22,12 @@ node
     {
         echo "unit testing"
     }
+    
+    stage('email notification')
+    {
+       mail bcc: '', body: 'hi', cc: 'sumit.kalra121@gmail.com', from: '', replyTo: '', subject: 'jenkins email', to: 'sumit.kalra121@gmail.com'
+    }
+    
+    
+    
 }
